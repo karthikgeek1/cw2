@@ -1,0 +1,14 @@
+.left, .center, nav, .right{
+    display: flex;
+}
+nav{
+    justify-content: space-between;
+}
+.left .logo i{
+    color: red;
+}
+i{
+    margin-right: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
